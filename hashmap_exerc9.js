@@ -11,7 +11,7 @@ function encode(phrase) {
     
     for(letter of phrase) {
         encoded_phrase += get(map_encode, letter, letter);
-    } console.log('The phrase has been decoded as:', encoded_phrase)
+    } console.log('The phrase has been encoded as:', encoded_phrase)
       return encoded_phrase;
 }
 
